@@ -86,7 +86,7 @@ const server = http.createServer((req, res) => {
       page(
         "Shop",
         `<h1>Fresh beans, roasted weekly</h1>
-         <p class="sub">Three roasts. Free delivery over £30.</p>
+         <p class="sub">Three roasts, roasted every Tuesday. Free delivery over £20.</p>
          <div class="grid">${cards}</div>`,
         count,
       ),
