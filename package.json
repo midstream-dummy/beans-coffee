@@ -1,0 +1,13 @@
+{
+  "name": "beans-demo-shop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@midstream/sdk": "0.2.2",
+    "@playwright/test": "1.62.1"
+  }
+}

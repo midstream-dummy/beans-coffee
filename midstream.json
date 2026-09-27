@@ -1,0 +1,5 @@
+{
+  "install": "npm ci",
+  "start": "npm start",
+  "test": "npx playwright test {{file}} -g \"{{grep}}\""
+}
